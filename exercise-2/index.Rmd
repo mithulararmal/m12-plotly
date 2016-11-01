@@ -3,7 +3,7 @@ title: "index"
 output: html_document
 ---
 
-```{r}
+```{r, echo=FALSE, message=FALSE}
 library(plotly)
 
 Primates <- c('Potar monkey', 'Gorilla', 'Human', 'Rhesus monkey', 'Chimp')
